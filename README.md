@@ -4,6 +4,7 @@ REST server for getting/creating/updating some data via HTTP
 # How to run the Server
 In the current directory run command and verify two messages below:
 > $ python server.py
+
 > INFO. Server is listening to localhost:8080.
 > DB exists and tables created.
 
