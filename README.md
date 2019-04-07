@@ -3,16 +3,15 @@ REST server for getting/creating/updating some data via HTTP
 
 # How to run the Server
 In the current directory run command and verify two messages below:
-> $ python server.py
+> $ python server.py<br />
+> INFO. Server is listening to localhost:8080.<br />
+> DB exists and tables created.<br />
 
-> INFO. Server is listening to localhost:8080.
-> DB exists and tables created.
-
-This command will run server on localhost:8080
+This command will run server on localhost:8080<br />
 The SQLite database file adevatest.db will be created in the current folder.
 
-This Server uses standard SimpleHTTPServer which is part of Python 2.7 so it is not needed to install any other Python packages except one which is part of requirements. Thi
-s package is anapioficeandfire-python. To install it to Python 2.7 use:
+This Server uses standard SimpleHTTPServer which is part of Python 2.7 so it is not needed to install any other Python packages except one which is part of requirements. 
+This package is 'anapioficeandfire-python'. To install it to Python 2.7 use:
 > sudo pip2 anapioficeandfire
 
 For testing use queries from task description.
@@ -25,7 +24,7 @@ List of supported commands in accordance with sections in task description:
 * Update: POST http://localhost:8080/api/v1/books/:id/update     with data in request body
 * Delete: DELETE http://localhost:8080/api/v1/books/:id
 * Delete: POST http://localhost:8080/api/v1/books/:id/delete
-* Show:   GET http://localhost:8080/api/v1/books/:id
-Where values like :id or :nameOfABook are placeholders for real id and name of book accordingly.
+* Show:   GET http://localhost:8080/api/v1/books/:id<br />
+Where values like **:id** or **:nameOfABook** are placeholders for real id and name of book accordingly.<br />
 The first command may be run with empty name of book (name=) and in such case it will return all existing books in the original storage.
 
