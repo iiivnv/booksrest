@@ -4,8 +4,8 @@ REST server for getting/creating/updating some data via HTTP
 # How to run the Server
 In the current directory run command and verify two messages below:
 >$ python server.py
-INFO. Server is listening to localhost:8080.
-DB exists and tables created.
+>INFO. Server is listening to localhost:8080.
+>DB exists and tables created.
 
 This command will run server on localhost:8080
 The SQLite database file adevatest.db will be created in the current folder.
